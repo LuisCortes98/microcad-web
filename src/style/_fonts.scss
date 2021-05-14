@@ -1,0 +1,43 @@
+@mixin font-ellipsis {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Semi-Bold";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@for $i from 0 through 11 {
+  .txt-#{8+($i * 2)} {
+    font-size: #{8 + (($i * 2) - 1.5)}pt;
+  }
+}
+
+@media (min-width: 768px) {
+  @for $i from 0 through 11 {
+    .txt-#{8+($i * 2)} {
+      font-size: #{8 +(($i * 2) - 1)}pt;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  @for $i from 0 through 11 {
+    .txt-#{8+($i * 2)} {
+      font-size: #{8 + ($i * 2)}pt;
+    }
+  }
+}

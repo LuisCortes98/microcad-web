@@ -1,0 +1,44 @@
+.txt-bold {
+  @include font-ellipsis;
+  font-family: "Bold";
+  margin-bottom: 5px;
+  cursor: default;
+}
+
+.txt-semibold {
+  @include font-ellipsis;
+  font-family: "Semi-Bold";
+  cursor: default;
+}
+
+.txt-regular {
+  @include font-ellipsis;
+  font-family: "Regular";
+  cursor: default;
+}
+
+.txt-black {
+  color: $black !important;
+}
+
+.txt-white {
+  color: $white !important;
+}
+
+.txt-clear-gray {
+  color: $clear-gray !important;
+}
+
+.txt-violet {
+  color: $violet !important;
+}
+
+.txt-dark-violet {
+  color: $dark-violet !important;
+}
+
+.txt-dark-blue {
+  color: $dark-blue !important;
+}
+
+
