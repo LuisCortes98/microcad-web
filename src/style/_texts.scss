@@ -5,9 +5,15 @@
   cursor: default;
 }
 
-.txt-semibold {
+.txt-semi-bold {
   @include font-ellipsis;
   font-family: "Semi-Bold";
+  cursor: default;
+}
+
+.txt-medium {
+  @include font-ellipsis;
+  font-family: "Medium";
   cursor: default;
 }
 
