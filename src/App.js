@@ -3,6 +3,7 @@ import Home from './components/Home';
 
 import './icons/css/all.min.css';
 import './style/style.scss';
+import './style/rsuite/custom.less';
 
 export default class App extends Component {
     static displayName = App.name;

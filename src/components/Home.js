@@ -1,4 +1,7 @@
 import React from 'react';
+
+import { Input, InputGroup } from 'rsuite';
+
 import Pin from './items/Pin';
 
 import thinking from '../imgs/thinking.svg';
@@ -40,12 +43,16 @@ const Home = () => {
             </div>
             <div className="column-center align-items-center bottom-0 bg-clear-gray w-100 py-4">
                 <div> 
-                    <div className="txt-semi-bold txt-violet txt-14 d-inline-flex">¿Ya habías hecho esto antes? Continúa tu proceso</div>
-                    <div className="row-start align-items-center border input rounded py-2 pl-3 pr-2 my-3">
-                        <i className="fa fa-envelope mr-2 txt-20 txt-clear-violet c-pointer"></i>
-                        <input class="input input-text txt-violet txt-12 txt-regular" type="email" placeholder="Correo electrónico"></input>
-                        <i className="fa fa-arrow-circle-right txt-20 txt-violet c-pointer"></i>
-                    </div>
+                    <div className="txt-semi-bold txt-violet txt-14 d-inline-flex my-3">¿Ya habías hecho esto antes? Continúa tu proceso</div>
+                    <InputGroup inside>
+                        <InputGroup.Addon>
+                            <i className="fa fa-envelope txt-16 txt-clear-violet c-pointer"></i>
+                        </InputGroup.Addon>
+                        <Input />
+                        <InputGroup.Button>
+                            <i className="fa fa-arrow-circle-right txt-20 txt-violet c-pointer"></i>
+                        </InputGroup.Button>
+                    </InputGroup>
                 </div>
             </div>
         </div>
