@@ -46,11 +46,12 @@ const Home = () => {
                     <div className="txt-semi-bold txt-violet txt-14 d-inline-flex my-3">¿Ya habías hecho esto antes? Continúa tu proceso</div>
                     <InputGroup inside>
                         <InputGroup.Addon>
-                            <i className="fa fa-envelope txt-16 txt-clear-violet c-pointer"></i>
+                            <i className="fa fa-envelope txt-12 txt-clear-violet"></i>
                         </InputGroup.Addon>
-                        <Input />
+                        <Input
+                            placeholder="Correo electrónico" />
                         <InputGroup.Button>
-                            <i className="fa fa-arrow-circle-right txt-20 txt-violet c-pointer"></i>
+                            <i className="fa fa-arrow-circle-right txt-20 txt-violet"></i>
                         </InputGroup.Button>
                     </InputGroup>
                 </div>

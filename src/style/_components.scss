@@ -1,11 +1,10 @@
-.input-text {
-    border: none;
-    background-color: transparent;
-    height: 30px;
+#img-chat {
+    height: 50px;
+    width: 50px;
 }
 
-.input{
-    outline: 0;
+#chat-bubble{
+    border-radius: 40px;
 }
 
 .pin {
@@ -15,4 +14,8 @@
 .pin-lg {
     height: 250px;
     width: 250px;
+}
+
+.contact {
+    width: 500px;
 }
