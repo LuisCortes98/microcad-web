@@ -14,7 +14,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <section className="row-start align-items-start vh-100 w-100 bg-white flex-grow-1 h-100">
+            <section id="App" className="row-start align-items-start bg-white flex-grow-1 h-100">
                 <Purpose/>
                 <ChatBubble/>
             </section>

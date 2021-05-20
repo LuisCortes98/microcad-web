@@ -1,6 +1,12 @@
+#App {
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 0;
+}
+
 #img-chat {
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
 }
 
 #chat-bubble{
@@ -18,4 +24,8 @@
 
 .contact {
     width: 500px;
+}
+
+.purpose-button{
+    height: 80px;
 }
