@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Input, InputGroup } from 'rsuite';
 
+import { Link } from 'react-router-dom';
+
 import Pin from './items/Pin';
 
 import thinking from '../imgs/thinking.svg';
@@ -22,11 +24,11 @@ const Home = () => {
                                 Si aún no estás seguro de cuál es el software ideal para ti, podemos recomendarte algunos.
                             </div>
                         </div>
-                        <div className="row-center align-items-center bg-violet rounded shadow w-75 py-3 px-2 c-pointer">
+                        <Link to="/Info" className="row-center align-items-center bg-violet rounded shadow w-75 py-3 px-2 c-pointer">
                             <div className="txt-bold txt-white txt-10 text-wrap align-items-center justify-content-center text-center c-pointer mb-0">
                                 COMENZAR CON MI DIAGNÓSTICO
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className="column-between align-items-center col-6 h-100">
                         <div className="column-center align-items-center ">

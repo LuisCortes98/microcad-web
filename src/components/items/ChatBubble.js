@@ -4,7 +4,7 @@ import profile from '../../imgs/profile.jpg';
 
 const ChatBubble = () => {
     return (
-        <a id="chat-bubble" className="row-start align-items-center position-fixed bottom-0 left-0 m-2 p-2 zindex-3 bg-dark-violet shadow c-pointer"
+        <a id="chat-bubble" target="_blank" className="row-start align-items-center position-fixed bottom-0 left-0 m-2 p-2 zindex-3 bg-dark-violet shadow c-pointer"
             href="https://wa.link/lj9s08">
             <div id="img-chat" className="row-center align-items-center bg-white rounded-pill c-pointer overflow-hidden">
                 <img src={profile} alt="imagen de contacto"/>

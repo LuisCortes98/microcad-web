@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Input, InputGroup } from 'rsuite';
 
+import { Link } from 'react-router-dom';
+
 const Contact = () => {
     return (
     <div className="column-start contact">
@@ -53,11 +55,11 @@ const Contact = () => {
                 </InputGroup>
             </div>
         </div>
-        <div className="row-end align-self-end bg-violet rounded shadow py-3 px-4 c-pointer mt-3 mx-3">
+        <Link to="/purpose" className="row-end align-self-end bg-violet rounded shadow py-3 px-4 c-pointer mt-3 mx-3">
             <div className="txt-bold txt-white txt-10 align-items-center justify-content-center text-center c-pointer mb-0">
                 CONTINUAR
             </div>
-        </div>
+        </Link>
     </div>
     )
 }
