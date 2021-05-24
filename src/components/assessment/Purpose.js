@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import Pin from '../items/Pin';
 
 import engineering from '../../imgs/engineering.svg';
@@ -23,12 +25,12 @@ const Purpose = () => {
             <div className="row-center align-items-enter flex-wrap my-2">
                 <div className="column-start align-items-center col">
                     <Pin img={engineering} size={pinSize}/>
-                    <div className="d-flex align-items-center bg-violet rounded shadow px-4 c-pointer mt-3 purpose-button">
+                    <Link to="/typeprojects" className="d-flex align-items-center bg-violet rounded shadow px-4 c-pointer mt-3 purpose-button">
                         <div className="txt-bold txt-white txt-10 align-items-center justify-content-center text-left c-pointer mb-0">
                             <p>ARQUITECTURA,</p>
                             <p>INGENIERÍA & CONSTRUCIÓN</p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
                 <div className="column-start align-items-center mx-4 col">
                     <Pin img={industry} size={pinSize}/>

@@ -13,6 +13,10 @@
     border-radius: 40px;
 }
 
+#shopping-cart {
+    min-width: 350px;
+}
+
 .pin {
     background: radial-gradient(#FCFCFC 50%, #A5A5A6 85%);
 }
@@ -30,6 +34,16 @@
     height: 80px;
 }
 
-.shopping-cart {
-    min-width: 350px;
+.margin-cart {
+    margin-right: 350px;
+}
+
+.multiple-background {
+    background: linear-gradient(to bottom, $clear-gray 0%, $clear-gray 530px, $white 530px, $white 100%);
+}
+
+.product-card {
+    height: 250px;
+    width: 175px;
+    border-radius: 5px;
 }

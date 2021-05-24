@@ -9,8 +9,8 @@ import './style/rsuite/custom.less';
 import Home from './components/Home';
 import Info from './components/assessment/Info';
 import Purpose from './components/assessment/Purpose';
+import TypeProjects from './components/assessment/TypeProjects';
 import ChatBubble from './components/items/ChatBubble';
-import ShoppingCart from './components/items/ShoppingCart';
 
 export default class App extends Component {
     static displayName = App.name;
@@ -20,12 +20,12 @@ export default class App extends Component {
             <section id="App" className="row-start align-items-start bg-white flex-grow-1 h-100">
                 <Switch>
                     <Route path="/home" exact component={Home}/>
-                    <Route path="/Info" exact component={Info}/>
-                    <Route path="/Purpose" exact component={Purpose}/>
+                    <Route path="/info" exact component={Info}/>
+                    <Route path="/purpose" exact component={Purpose}/>
+                    <Route path="/typeprojects" exact component={TypeProjects}/>
                     <Redirect exact from="/" to="/home" />
                 </Switch>
                 <ChatBubble/>
-                <ShoppingCart/>
             </section>
         );
     }

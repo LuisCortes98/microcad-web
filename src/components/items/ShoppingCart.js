@@ -2,13 +2,13 @@ import React from 'react';
 
 const ShoppingCart = () => {
     return (
-        <div className="position-absolute top-0 right-0 h-100 bg-black column-between shopping-cart">
+        <div id="shopping-cart" className="position-fixed top-0 right-0 h-100 bg-black column-between">
             <div className="bg-violet h-100 p-3">
-                <div className="row-start align-items-center txt-white txt-16">
+                <div className="row-start align-items-center txt-white txt-18">
                     <i className="fas fa-shopping-bag"></i>
-                    <div className="ml-2">Canasta</div>
+                    <div className="ml-2">Tu canasta</div>
                 </div>
-                <div className="position-relative h-100 w-100 row-center align-items-center txt-white txt-14">
+                <div className="position-relative h-100 w-100 row-center align-items-center txt-clear-white txt-16">
                     <i className="fas fa-box-open"></i>
                     <div className="ml-2">
                         Está vacía
